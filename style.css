@@ -1,0 +1,61 @@
+body, 
+ul,
+p {
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+
+}
+  
+/*
+a {
+    text text-decoration: none;
+}  */
+
+.header{
+    background-color:white; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+    
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 10px;
+}
+.menu li a{
+    display: block;
+    padding: 10px;
+}
+
+
+.flex{
+    padding:20px;
+    display: flex;
+    flex: 1 1 70%;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    align-content:center;
+    justify-content: center;
+}
+
+
+
+    
+    
+   
+    
+
+
+
